@@ -1,0 +1,7 @@
+[user]
+	name = Mohammed Faahiz
+	email = Mohammed.faahiz@raasoft.com
+[core]
+	editor = code --wait
+[safe]
+	directory = C:/Users/user

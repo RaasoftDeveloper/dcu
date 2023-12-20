@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Serilog.Sinks.Seq</id>
+    <version>4.0.0</version>
+    <authors>Serilog Contributors</authors>
+    <owners>Serilog Contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/serilog/serilog-sinks-seq</projectUrl>
+    <iconUrl>https://serilog.net/images/serilog-sink-seq-nuget.png</iconUrl>
+    <description>Serilog sink that writes to the Seq log server over HTTP/HTTPS.</description>
+    <copyright>Copyright © Serilog Contributors 2013-2017</copyright>
+    <tags>serilog seq</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Serilog" version="2.5.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Formatting.Compact" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.PeriodicBatching" version="2.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.5.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Formatting.Compact" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.PeriodicBatching" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.5.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Formatting.Compact" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.PeriodicBatching" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

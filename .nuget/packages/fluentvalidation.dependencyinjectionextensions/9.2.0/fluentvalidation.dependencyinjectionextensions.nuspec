@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FluentValidation.DependencyInjectionExtensions</id>
+    <version>9.2.0</version>
+    <authors>Jeremy Skinner</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://fluentvalidation.net/</projectUrl>
+    <iconUrl>https://fluentvalidation.net/assets/images/logo/fluent-validation-icon.png</iconUrl>
+    <description>Dependency injection extensions for FluentValidation</description>
+    <releaseNotes>Full release notes can be found at https://github.com/FluentValidation/FluentValidation/blob/master/Changelog.txt</releaseNotes>
+    <copyright>Copyright (c) .NET Foundation and contributors 2008-2020</copyright>
+    <repository type="git" url="https://github.com/JeremySkinner/fluentvalidation" commit="1cc1af41aab39b499d728729d25670ff0d8e4058" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="FluentValidation" version="9.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Dependencyinjection.Abstractions" version="2.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

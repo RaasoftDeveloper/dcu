@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>BoldReports.AspNet.Core</id>
+    <version>3.3.23</version>
+    <title>Bold Reports components for ASP.NET Core</title>
+    <authors>Syncfusion Inc.</authors>
+    <owners>Syncfusion Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.boldreports.com/terms-of-use?utm_source=nuget&amp;utm_medium=listing</licenseUrl>
+    <projectUrl>https://www.boldreports.com/?utm_source=nuget&amp;utm_medium=listing</projectUrl>
+    <iconUrl>https://cdn.syncfusion.com/boldreports/common/favicon.png</iconUrl>
+    <description>Bold Reports by Syncfusion components for ASP.NET Core contain runtime assemblies for building line-of-business applications that can run on Windows, Linux, and Mac. It contains HTML Helpers for Report Viewer and Report Designer components to build server-side dynamic websites based on Microsoft's ASP.NET Core.
+
+Key Features
+
+• Support for ASP.NET Core version 1.0 to the latest ASP.NET Core 2.0, along with .NET Standard 2.0.
+• Support for all major browsers: IE8+, Microsoft Edge, Chrome 17+, Firefox 22+, Safari 5+, and Opera 12+.
+• Support for globalization and localization.
+• 17 built-in themes including Material, Office 365, Bootstrap, and High contrast themes.
+• Built-in integration with the most popular third-party frameworks: Angular, React, Aurelia, Ember, TypeScript.
+• Built-in compliance with the WAI-ARIA specification, which ensures the components work properly in assistive technologies.
+• User-interactive widget mode is sustainable in a browser’s local storage, which helps to maintain the state for each component.
+• Support for RequireJS in all its components, which implements AMD specifications. So, users can load the users-specified scripts and modules into a page.
+
+Learn More
+
+https://www.boldreports.com/features?utm_source=nuget&amp;utm_medium=listing
+
+Documentation
+
+https://help.boldreports.com/embedded-reporting/aspnet-core-reporting?utm_source=nuget&amp;utm_medium=listing
+
+Support Questions: support@boldreports.com
+
+This is a commercial product and requires a paid subscription license for possession or use. Syncfusion’s Bold Reports services, including this component, is subject to the terms and conditions of Syncfusion's Bold Reports Software License Agreement and Terms of Service (https://www.boldreports.com/terms-of-use/?utm_source=nuget&amp;utm_medium=listing). To acquire a license, you can start a subscription or start a free 15-day trial here (https://www.boldreports.com/pricing/?utm_source=nuget&amp;utm_medium=listing).
+
+© Copyright 2021 Syncfusion, Inc. All Rights Reserved. The Syncfusion Bold Reports license and copyright applies to this distribution.</description>
+    <summary>The Bold Reports by Syncfusion components for ASP.NET Core contain runtime assemblies for building line-of-business applications that can run on Windows, Linux, and Mac. It contains HTML Helpers for Report Viewer and Report Designer components to build server-side dynamic websites based on Microsoft's ASP.NET Core.</summary>
+    <releaseNotes>https://www.boldreports.com/release-history/embedded-reporting/3-3#3-3-23?utm_source=nuget&amp;utm_medium=listing</releaseNotes>
+    <copyright>Copyright 2001 - 2021 Syncfusion Inc.</copyright>
+    <tags>syncfusion Bold-Reports aspnetcore boldreports.aspnetcore reporting.aspnetcore reports net-core net-core-app .net core reporting-tools bold-report-viewer bold-report-designer report-builder report-writer</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+    </dependencies>
+  </metadata>
+</package>

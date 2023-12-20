@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Syncfusion.Pdf.Net.Core</id>
+    <version>19.2.0.44</version>
+    <title>Create, Read and Edit PDF file in .NET Core using Syncfusion PDF library</title>
+    <authors>Syncfusion Inc.</authors>
+    <owners>Syncfusion Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.syncfusion.com/nuget/license?utm_source=nuget&amp;utm_medium=listing</licenseUrl>
+    <projectUrl>https://www.syncfusion.com/?utm_source=nuget&amp;utm_medium=listing</projectUrl>
+    <iconUrl>https://www.syncfusion.com/content/images/nuget/sync_logo_icon.png</iconUrl>
+    <description>Syncfusion Essential PDF is a .NET standard PDF library used to create, read, and edit PDF files in any .NET Core applications.
+
+Key features:
+• Create, edit, fill, and flatten the AcroForm form fields.
+• Merge, split, rearrange, and remove pages.
+• Create accessible PDF (PDF/UA) from scratch.
+• Watermark or stamp PDF documents with text or images.
+• Extract text.
+• Create richly formatted tables from different data source easily. More styling options are available.
+• Protect PDF with the advanced encryption standard (PDF 2.0). Change password and permission are also available.
+• Advanced digital signing with PFX, HSM and Windows Store. Support for Online Certificate Status Protocol (OCSP), Certificate Revocation List (CRL).
+• Add, edit, and remove 17+ supported annotations.
+• Pre-defined and JavaScript actions are available.
+• Add, edit, and delete bookmark from the PDF.
+• Add, edit, delete, and extract attachments from the PDF.
+
+Learn more: https://www.syncfusion.com/pdf-framework/net-core
+
+Documentation: http://help.syncfusion.com/file-formats/pdf/
+
+Support:
+Incident: https://www.syncfusion.com/support/directtrac/incidents/newincident 
+Forums: https://www.syncfusion.com/forums/windowsforms
+
+This is a commercial product and requires a paid license for possession or use. Syncfusion’s licensed software, including this component, is subject to the terms and conditions of Syncfusion's EULA (https://www.syncfusion.com/eula/es/). To acquire a license, you can purchase one at https://www.syncfusion.com/sales/products or start a free 30-day trial here (https://www.syncfusion.com/account/manage-trials/start-trials).
+
+© Copyright 2021 Syncfusion, Inc. All Rights Reserved. The Syncfusion Essential Studio license and copyright applies to this distribution.</description>
+    <releaseNotes>https://help.syncfusion.com/aspnet-core/release-notes/v19.2.0.44?utm_source=nuget&amp;utm_medium=listing</releaseNotes>
+    <copyright>Copyright 2001 - 2021 Syncfusion Inc.</copyright>
+    <tags>syncfusion syncfusion.aspnetcore aspnetcore net-standard .net core c# pdf acroform pdf-table tagged-pdf conformance-standard syncfusion.pdf</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="NETStandard.Library" version="2.0.0" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.4.0" />
+        <dependency id="Syncfusion.Compression.Net.Core" version="19.2.0.44" />
+        <dependency id="Syncfusion.Licensing" version="19.2.0.44" />
+      </group>
+      <group targetFramework=".NETStandard1.2">
+        <dependency id="NETStandard.Library" version="1.6.0" />
+        <dependency id="Syncfusion.Compression.Net.Core" version="19.2.0.44" />
+        <dependency id="Syncfusion.Licensing" version="19.2.0.44" />
+      </group>
+      <group targetFramework=".NETStandard1.4">
+        <dependency id="NETStandard.Library" version="1.6.0" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.0.1" />
+        <dependency id="Syncfusion.Compression.Net.Core" version="19.2.0.44" />
+        <dependency id="Syncfusion.Licensing" version="19.2.0.44" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

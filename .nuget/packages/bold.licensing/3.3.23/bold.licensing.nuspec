@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Bold.Licensing</id>
+    <version>3.3.23</version>
+    <title>Bold Licensing for .NET</title>
+    <authors>Syncfusion Inc.</authors>
+    <owners>Syncfusion Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.boldreports.com/terms-of-use?utm_source=nuget&amp;utm_medium=listing</licenseUrl>
+    <projectUrl>https://www.boldreports.com/?utm_source=nuget&amp;utm_medium=listing</projectUrl>
+    <iconUrl>https://cdn.syncfusion.com/boldreports/common/favicon.png</iconUrl>
+    <description>Bold licensing is a .NET library for validating the registered Bold license in an application at runtime. The Bold license must be registered in an application when using the Bold evaluation build or NuGet package assemblies.
+
+Documentation: https://documentation.boldreports.com/licensing?utm_source=nuget&amp;utm_medium=listing
+
+Support Questions: mailto:support@boldreports.com?utm_source=nuget&amp;utm_medium=listing
+
+This is a commercial product and requires a paid subscription license for possession or use. Syncfusion’s Bold Reports services, including this component, is subject to the terms and conditions of Syncfusion's Bold Reports Software License Agreement and Terms of Service (https://www.boldreports.com/terms-of-use?utm_source=nuget&amp;utm_medium=listing). To acquire a license, you can start a subscription or start a free 15-day trial here (https://www.boldreports.com/pricing/embedded?utm_source=nuget&amp;utm_medium=listing).
+
+© Copyright 2021 Syncfusion, Inc. All Rights Reserved. The Syncfusion Bold Reports license and copyright applies to this distribution.</description>
+    <releaseNotes>https://www.boldreports.com/release-history/embedded-reporting/3-3#3-3-23?utm_source=nuget&amp;amp;utm_medium=listing</releaseNotes>
+    <copyright>Copyright 2001 - 2021 Syncfusion Inc.</copyright>
+    <tags>syncfusion bold-reports licensing license wpf aspnet aspnet-mvc uwp .net aspnet-core core</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.2" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Bold.Licensing" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
